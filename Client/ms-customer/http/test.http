@@ -8,6 +8,8 @@ GET http://localhost:7070/customer/token
 GET http://localhost:7070/customer/obtain
 ###
 GET http://localhost:7070/customer/list
+###
+GET http://localhost:7070/customer/obtain?fromEUR&to=USD&amount=100
 
 # GENERAR TOKEN
 #POST http://localhost:8081/realms/software/protocol/openid-connect/token

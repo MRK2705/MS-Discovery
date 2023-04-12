@@ -1,10 +1,10 @@
-package com.example.msaccount
+package com.example.msconfigserver
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class MsAccountApplicationTests {
+class MsConfigServerApplicationTests {
 
 	@Test
 	fun contextLoads() {
