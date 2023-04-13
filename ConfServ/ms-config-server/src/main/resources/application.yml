@@ -6,4 +6,51 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/MRK2705/server-config.git
+          ignoreLocalSshSettings: true
+          hostKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDaw7CUTc19MryxlfbmY5GxHYkRf4zDy90iONu+uvKqiIhT0lTv6jeNhOAdDosXCt4Vzycl4PRwJiV1/o/lxSgPzDCM/ib/W49neHrVI75JvDLvqBGx/hGAwm3wR8Hzle4Q5MONfXeY5jdEIJrLw0ENLnvvaaYfaKczOkUC/vcFAbczh+dP5jKUSMj5r7IoM1l9Bj2/SXIcj83+Xbr+LOFxOSsKoous3VWYJsZeLnFCCEoIk5w9NQIJ7OmawFQevO4tjiMYKfDPRhHj1FLft7E4OfqjKDG5KhTvfVo2px4rPaudtkImrmhatt91ZBiKhal4pf3M67UBpCyM/+q3AosicmyiT1Z0KlPHYVjlY7Kf/h8vSkuyA37IUyZEfGkRHVtTS6CXZk+Z0WsdDBmJbhgdeDTRAgwVqSiTOMVCEONAyjheGILmo95f1SXm+um15x0h6brQ8V9mPqrpRF1WVjbWsQo1QDcG5qOouANNR/1rOk/6HUTDDRHy9rlpw9XnkWU= Mirko Alarcon@DESKTOP-P05AHTE
+          hostKeyAlgorithm: ssh-rsa
+          privateKey: |
+            -----BEGIN OPENSSH PRIVATE KEY-----
+            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
+            -----END OPENSSH PRIVATE KEY-----
+  application:
+    name: ms-config-server
+
+encrypt:
+  key: :v^(K–jUD*9$YTT$~Y_xvU}nV+B/8mnR)eh2%z=O
