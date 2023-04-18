@@ -1,6 +1,8 @@
 package com.example.mscustomer.api
 
+import com.example.mscustomer.consumer.NotificationConsumer
 import com.example.mscustomer.dto.CurrencyDto
+import com.example.mscustomer.dto.NotificationDto
 import com.example.mscustomer.dto.RequestDto
 import com.example.mscustomer.dto.TokenDto
 import com.example.mscustomer.service.AccountService
@@ -11,6 +13,7 @@ import org.springframework.beans.factory.annotation.Value
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
+import java.util.Date
 
 @RestController
 @RequestMapping("/customer")
